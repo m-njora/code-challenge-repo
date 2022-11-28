@@ -1,44 +1,5 @@
-//Challenge 1: Student Grade Generator (Toy Problem)
 
-let grade = 85;
-function calculateGrade(grade){
-if(grade >= 79 ){
-return ("A");
-}
-else if(grade>=60){
-return ("B");
-}
-else if(grade>=59){
-return ("C");
-}
-else if(grade>=40){
 
-return("D");
-}
-else{
-return ("E");
-}
-}
-console.log (calculateGrade(grade))
-//Challenge 2: Speed Detector (Toy Problem)
-let speed = 200
-function speedDetector(speed){
-    
-if(speed < 70){
-return("Ok");
-}
-
-else {
-    let points = ((speed-70)/5)
-        return("Points:"+points);
-    if (points >= 12){
-        return('License suspended');
-    }
-    }
-}
-console.log(speedDetector(speed));
-
-//Challenge 3: Net Salary Calculator (Toy Problem)
 function salCalculator(salary, benefits){
 
   let gross = salary + benefits;
@@ -111,7 +72,6 @@ const nhifRemit= (gross)=>{
 
 
 salCalculator(500000, 5000);
-
 
 
 
